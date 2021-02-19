@@ -55,12 +55,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -105,12 +102,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -153,12 +147,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -201,12 +192,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -249,12 +237,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -297,12 +282,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -345,12 +327,9 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -393,12 +372,7 @@ try:
 
     time.sleep(10)
 
-    update_results_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
-    )
-
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -407,28 +381,24 @@ finally:
 
 """CompareRemit"""
 
-"""driver.get("https://www.compareremit.com/compare-money-transfer-services-from-usd-to-india/?amt=1000&sc=USD&rc=INR")
+driver.get("https://www.compareremit.com/compare-money-transfer-services-from-usd-to-india/?amt=1000&sc=USD&rc=INR")
 
 # USA to IND, 1000 USD
 
 time.sleep(10)
 
 try:
-    filter_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "sort-toggle"))
-    )
-
     filter_box = driver.find_element_by_id("sort-toggle")
     filter_box.click()
-    send_country_currency = driver.find_element_by_xpath("/html/body/div[4]/div[1]/form/div/div/div[5]/div/a[1]")
-    send_country_currency.click()
+    filter_box_best_value = driver.find_element_by_link_text("Best Value")
+    filter_box_best_value.click()
 
-    time.sleep(10)
+    time.sleep(5)
 
 finally:
     driver.get_screenshot_as_file('CompareRemit_Usa_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
-driver.quit()"""
+driver.quit()
 
 print("Screenshots are ready")
 
