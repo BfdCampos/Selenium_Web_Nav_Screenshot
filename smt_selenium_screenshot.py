@@ -11,8 +11,7 @@ print("Launching code...")
 options = webdriver.ChromeOptions()
 options.headless = True
 
-PATH = "chromedriver.exe"
-driver = webdriver.Chrome(PATH, options=options)
+driver = webdriver.Chrome("chromedriver.exe", options=options)
 
 print("Launching browser...")
 time.sleep(0.5)
@@ -58,10 +57,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -108,10 +107,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -156,10 +155,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -204,10 +203,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -252,10 +251,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -300,10 +299,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -348,10 +347,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
@@ -396,10 +395,10 @@ try:
 
     update_results_box_check = WebDriverWait(driver, 300).until(
         EC.presence_of_element_located(
-            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div"))
+            (By.XPATH, "/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button"))
     )
 
-    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/div")
+    update_results_box = driver.find_element_by_xpath("/html/body/div[1]/div/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
     time.sleep(10)
