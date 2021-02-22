@@ -57,10 +57,10 @@ try:
 
 
 
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.set_window_size(width=1877, height=1934)
 
@@ -104,10 +104,10 @@ try:
 
 
 
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.get_screenshot_as_file('Monito_Aus_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
@@ -149,10 +149,10 @@ try:
 
 
 
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.get_screenshot_as_file('Monito_Gbr_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
@@ -194,10 +194,10 @@ try:
 
 
 
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.get_screenshot_as_file('Monito_Usa_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
@@ -237,12 +237,10 @@ try:
 
     time.sleep(10)
 
-
-
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.get_screenshot_as_file('Monito_Zaf_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
@@ -284,10 +282,10 @@ try:
 
 
 
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.get_screenshot_as_file('Monito_Irl_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
@@ -329,10 +327,10 @@ try:
 
 
 
-    update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
+    """update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
     update_results_box.click()
 
-    time.sleep(10)
+    time.sleep(10)"""
 finally:
     driver.get_screenshot_as_file('Monito_Nor_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
@@ -370,10 +368,10 @@ try:
     amount_box.send_keys("1000")
     amount_box.send_keys(Keys.RETURN)
 
-    time.sleep(10)
+    """time.sleep(10)
 
     update_results_box = driver.find_element_by_xpath("//*[@id='__layout']/div/div/main/div/div[3]/div[2]/div[1]/div[2]/div/button")
-    update_results_box.click()
+    update_results_box.click()"""
 
     time.sleep(10)
 finally:
