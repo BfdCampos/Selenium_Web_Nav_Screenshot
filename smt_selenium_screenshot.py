@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+from playsound import playsound
 
 print("Launching code...")
 
@@ -424,6 +425,7 @@ else:
 
 driver.quit()
 
+playsound('Coin.mp3')
 print("Screenshots are ready")
 
 """Zoom code: driver.execute_script("document.body.style.zoom='80%'")"""
