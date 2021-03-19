@@ -215,7 +215,7 @@ else:
 
 driver.back()
 
-# ZAF to IND, 1000 USD
+# ZAF to IND, 10000 ZAR
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
@@ -242,7 +242,7 @@ try:
 
     amount_box = driver.find_element_by_class_name("input_3IEKl")
     amount_box.clear()
-    amount_box.send_keys("1000")
+    amount_box.send_keys("10000")
     amount_box.send_keys(Keys.RETURN)
 
     time.sleep(10)
