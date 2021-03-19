@@ -215,7 +215,7 @@ else:
 
 driver.back()
 
-# ZAF to IND, 10000 ZAR
+# ZAF to IND, 10,000 ZAR
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
@@ -401,7 +401,7 @@ except:
 else:
     driver.get_screenshot_as_file('Monito_Gbr_to_Pol_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
-"""CompareRemit"""
+# COMPAREREMIT
 
 driver.get("https://www.compareremit.com/compare-money-transfer-services-from-usd-to-india/?amt=1000&sc=USD&rc=INR")
 
@@ -423,11 +423,55 @@ except:
 else:
     driver.get_screenshot_as_file('CompareRemit_Usa_to_Ind_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
 
+# helloPaisa
+
+driver.get("https://hellopaisa.co.za/")
+
+# ZAR to INR, 10,000 ZAR
+
+time.sleep(10)
+
+try:
+    receiver_country_box = driver.find_element_by_id("targetCountryFlag")
+    receiver_country_box.click()
+    receiver_country_box_search = driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div[2]/ul/li[13]/img")
+    receiver_country_box_search.click()
+
+
+    amount_box = driver.find_element_by_id("fromInputValue")
+    amount_box.clear()
+    amount_box.send_keys("10000")
+    amount_box.send_keys(Keys.RETURN)
+
+    time.sleep(10)
+
+except:
+    driver.set_window_size(width=1000, height=1000)
+    driver.execute_script("document.body.style.zoom='150%'")
+    driver.get_screenshot_as_file('HelloPaisa_Zar_to_Inr_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
+
+else:
+    driver.set_window_size(width=1000, height=1000)
+    driver.execute_script("document.body.style.zoom='150%'")
+    driver.get_screenshot_as_file('HelloPaisa_Zar_to_Inr_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
+
+# SBI
+
+driver.get("https://za.statebank/home")
+
+# ZAR to INR
+
+time.sleep(5)
+
+driver.set_window_size(width=450, height=800)
+driver.get_screenshot_as_file('SBI_Zar_to_Inr_' + str(time.strftime("%Y%m%d_%H%M%S")) + '.png')
+
 driver.quit()
 
-playsound('Coin.mp3')
 print("Screenshots are ready")
+playsound('Coin.mp3')
 
 """Zoom code: driver.execute_script("document.body.style.zoom='80%'")"""
+"""Resolution code -  Large (default): driver.set_window_size(width=1877, height=1934)"""
 
 
