@@ -28,10 +28,10 @@ driver.get("https://www.monito.com")
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -39,10 +39,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -75,10 +75,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -86,10 +86,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -123,10 +123,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -134,10 +134,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -171,10 +171,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -182,10 +182,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -219,10 +219,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -230,10 +230,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -267,10 +267,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -278,10 +278,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -315,10 +315,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -326,10 +326,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
@@ -363,10 +363,10 @@ driver.back()
 
 try:
     send_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-735"))
+        EC.presence_of_element_located((By.ID, "label-298"))
     )
 
-    send_country_box = driver.find_element_by_id("label-735")
+    send_country_box = driver.find_element_by_id("label-298")
     send_country_box.click()
     send_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     send_country_box_search.clear()
@@ -374,10 +374,10 @@ try:
     send_country_box_search.send_keys(Keys.RETURN)
 
     receiver_country_box_check = WebDriverWait(driver, 300).until(
-        EC.presence_of_element_located((By.ID, "label-738"))
+        EC.presence_of_element_located((By.ID, "label-301"))
     )
 
-    receiver_country_box = driver.find_element_by_id("label-738")
+    receiver_country_box = driver.find_element_by_id("label-301")
     receiver_country_box.click()
     receiver_country_box_search = driver.find_element_by_class_name("filter_1dXcM")
     receiver_country_box_search.clear()
